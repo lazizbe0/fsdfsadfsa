@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+.todo{
+    max-width: 600px;
+    background-color: blue;
+    margin: 56px auto;
+    padding: 50px;
+    border-radius: 10px;
+}
+.todo__add{
+    display: flex;
+    margin-bottom: 30px;
+}
+.tobo_input{
+    padding: 10px;
+    color: black;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    font-family: sans-serif;
+    width: calc(100% - 100px);
+}
+.todo_Btn{
+    padding: 0 15px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.todo_list{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.todo__item{
+    font-size: 22px;
+    color: red  ;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 10px -5px black;
+    padding: 15px;
+    background: yellow;
+}
+.todo__item-close{
+    padding: 5px;
+    background-color: red;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
